@@ -13,8 +13,12 @@ h2 {
 
 h3, 
 p,
+pre,   
 li {
     color: green;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
 }
 
 img {
@@ -83,4 +87,10 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+
+.service {
+    display: inline-block;
+    text-align: center;
 }
